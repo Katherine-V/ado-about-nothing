@@ -1,3 +1,12 @@
+main{
+  display: flex; 
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 90%
+  height:100vh;
+}
+     
+
 /* flexbox row */
 .row {
     display:flex;
@@ -5,30 +14,12 @@
     flex-wrap: wrap;
     }
 
-/*
-css grid layout build a 12-column layout using CSS grid 
-*/
-.grid {
-    display: grid;
-    width: 100%;
-    grid-template-columns: repeat(12, 1fr);
-}
 /* 
 flexbox column use this to create a flexbox column layout
 */
 .column{
     display: flex;
     flex-direction: column
-}
-
-/*
-linear gradients this will create a background linear gradient from top to bottom 
-*/
-.linear-gradient-background {
-    background-image: linear-gradient (
-        rgba(232, 102, 236, 0.3) 0%
-        rgba(232, 102, 236, 0.6) 100%
-    );
 }
 /*
 box transition glow use transition and box shadows to flow on hover
