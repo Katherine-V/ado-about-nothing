@@ -3,42 +3,39 @@ main{
   flex-wrap: wrap;
   justify-content: center;
   width: 90%
-  height:100vh;
+  height:90vh;
 }
-     
 
-/* flexbox row */
-.row {
-    display:flex;
-    flex-direction:row;
-    flex-wrap: wrap;
-    }
+.box{
+  width:80%;
+  height:80%;
+}
 
-/* 
-flexbox column use this to create a flexbox column layout
-*/
+header, footer{
+  background-color: pink;
+  display: inline;
+
 .column{
     display: flex;
     flex-direction: column
 }
-/*
-box transition glow use transition and box shadows to flow on hover
-*/
-.code-card .card-header {
+  
+.card {
     border-radius: 8px;
     transition: all 0.5s ease-in-out;
 }
-.code-card:hover, 
-.code-card:hover .card-header {
+.card:hover {
     box-shadow: inset 0px 0px 8px
     rgba(232, 102, 236, 1), 0 0 15px
     rgba(232, 102, 236, 1);
 }
+
 /*overlay card with title 
 use position properties and negative margins to raise
 elements higher than their natural starting point
-*/
+
 .card-header {
     position: relative;
     margin-top: -20px;
 }
+*/
