@@ -39,3 +39,12 @@ elements higher than their natural starting point
     margin-top: -20px;
 }
 */
+
+@media screen and (max-width:992px){
+  nav{background-color:pink}
+
+@media screen and (max-width:768px){
+  nav{background-color:purple}
+  
+@media screen and (max-width:576px){
+  nav{background-color:gray}  
